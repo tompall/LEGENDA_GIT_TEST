@@ -24,7 +24,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	void GetInputFromUser();
+	UFUNCTION(BlueprintCallable, Category = "Chatbot CPP Functions")
+	void GetInputFromUser(TArray<FString> Responses);
+
 	int32 userButton;
 
 	TArray<int32> userButtonSequence;

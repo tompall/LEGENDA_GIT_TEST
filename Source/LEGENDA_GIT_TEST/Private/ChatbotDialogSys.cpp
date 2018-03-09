@@ -15,7 +15,6 @@ AChatbotDialogSys::AChatbotDialogSys()
 void AChatbotDialogSys::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -23,5 +22,12 @@ void AChatbotDialogSys::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AChatbotDialogSys::GetInputFromUser(TArray<FString> Responses)
+{
+	
+	
+	
 }
 
