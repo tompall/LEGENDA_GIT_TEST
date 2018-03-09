@@ -23,6 +23,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+public:
+	void GetInputFromUser();
+	int32 userButton;
+
+	TArray<int32> userButtonSequence;
+
+
 	
 	
 };
